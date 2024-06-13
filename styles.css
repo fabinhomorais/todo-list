@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +6,9 @@
     outline: none;
 }
 
-body{
-    background: url("./imagens/todo-list-background.jpg");
-    background-size: 100%;
+body {
+    background: url("./imagens/todo-list-background.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
     
 

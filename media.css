@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin: 50px auto 0;
+        padding: 15px;
+    }
+
+    .input-task {
+        width: 100%;
+        margin-bottom: 10px;
+        height: 35px;
+    }
+
+    .button-add-task {
+        width: 50%;
+        margin-bottom: 10px;
+        align-self: flex-start;
+    }
+
+    .task {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px;
+    }
+
+    .task img {
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .input-task {
+        width: 60%;
+    }
+
+    .button-add-task {
+        width: 50%;
+        margin-bottom: 10px;
+        align-self: flex-start;
+    }
+}
